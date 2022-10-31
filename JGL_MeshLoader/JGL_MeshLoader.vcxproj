@@ -131,6 +131,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="source\elems\Model.cpp" />
     <ClCompile Include="source\ui\scene_view.cpp" />
     <ClCompile Include="source\ui\property_panel.cpp" />
     <ClCompile Include="source\render\opengl_context.cpp" />
@@ -182,6 +183,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\3rdparty\plugins\imgui\ImFileBrowser.h" />
+    <ClInclude Include="source\elems\Model.h" />
     <ClInclude Include="source\utils\imgui_widgets.h" />
     <ClInclude Include="source\ui\scene_view.h" />
     <ClInclude Include="source\ui\property_panel.h" />
